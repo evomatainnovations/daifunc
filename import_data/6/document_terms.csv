@@ -1,0 +1,35 @@
+tid,name,Document,Owner,Created,created_by
+19,   Subject to Mumbai jurisdiction ,Invoice,2,2018-01-18 19:01:42,2
+3,.100% Payment against delivery.,Invoice,2,2017-12-02 19:12:53,2
+4,Goods once sold will not be taken back.,Invoice,2,2017-12-02 19:12:09,2
+6,Delivery: With in 2 to 4 week.,Quotation,2,2017-12-05 19:12:20,2
+5,Any complaint against quality should be lodged with in 7 days.,Invoice,2,2017-12-02 19:12:24,2
+7,"Payment: 50% against firm order, balance on delivery.",Quotation,2,2017-12-05 19:12:50,2
+8,  Taxes: Extra if any levied at the time of delivery other than specified.,Quotation,2,2017-12-05 19:12:34,2
+9,Wiring at your scope,Quotation,2,2017-12-05 19:12:10,2
+13,"Any fabrication, carpentry, mason, work if required will be at your scope.    ",Quotation,2,2017-12-08 14:12:21,2
+11,Warranty of the equipment will 12 month from date of purchase.,Quotation,2,2017-12-08 14:12:52,2
+12,A.M.C will be under taken after completion of warranty period @ 7% of the Invoice Value,Quotation,2,2017-12-08 14:12:54,2
+14, Lift CCTV Cabling will done by your lift service provider.,Quotation,2,2017-12-08 14:12:34,2
+15,Pole mounting or any mount to fix camera / monitor  if required  shall be fabricated at extra cost,Quotation,2,2017-12-08 14:12:40,2
+16,Payment Terms: 100% Advance,Quotation,4,2018-01-15 13:01:19,4
+17,"The services mentioned in the quote have a subscription of 1 year. This includes  support  for a period of 1 year. After completion of one year, subscription charges are 60% of the quotation value.",Quotation,4,2018-01-15 13:01:28,4
+18,"In-case of changes post handover, charges will be applicable",Quotation,4,2018-01-15 13:01:26,4
+30,Subject to Mumbai Jurisdiction  ,Invoice,4,2018-04-16 22:04:05,4
+29," In-case of changes post handover, charges will be applicable ",Quotation,4,2018-01-31 13:01:04,4
+28,Trials,Quotation,4,2018-01-31 13:01:09,4
+27,Testing,Quotation,4,2018-01-31 13:01:19,4
+32,"Once system has been handed over, support will be applicable for the period mentioned in the invoice.  ",Invoice,4,2018-04-16 22:04:21,4
+33,We reserve the right to change our terms and conditions without notice.  ,Invoice,4,2018-04-16 22:04:59,4
+34,"Make all payments to the account of - Evomata Innovations (OPC) Pvt Ltd. Acc No. 37598809255 Bank: SBI, IFSC SBIN0013036",Invoice,4,2018-04-16 23:04:42,4
+35," In the case of major fault the equipment shall  be bought to work station , will be repaired and returned back in due course of time.",AMC,2,2018-05-03 17:05:10,2
+36,The above service contract does not cover any damage to the equipment caused by accident or gross negligence of the owner.,AMC,2,2018-05-03 17:05:55,2
+37,"Care will be taken of all equipment brought to the workshop for repair, however the company is not liable for any loss or damage arising from accident, fire , theft, riot or causes beyond our control.",AMC,2,2018-05-03 17:05:38,2
+38,"This contract is only for labour, thereby does not include any parts. Parts replaced will be charged extra.",AMC,2,2018-05-03 17:05:06,2
+40,Any ornamental parts or outer casing of the equipment will not be taken under the contract.,AMC,2,2018-05-03 17:05:55,2
+41,Housing/Dome of the equipment if corroded and needs replacement will be charged extra.,AMC,2,2018-05-03 17:05:44,2
+42,"In cases where our service technicians are unable to reach the place of installtion with your normal ladder, any special arrangement if required, shall be provided by the costumer.	  ",AMC,2,2018-05-03 17:05:15,2
+43,This agreement shall not be assigned by the owner without the consent of the company.,AMC,2,2018-05-03 17:05:48,2
+44,"Any wiring/additional wiring ,disconnection/reconnection shall be charged extra.",AMC,2,2018-05-03 17:05:22,2
+46,Our Bank Details:Name of the Bank: ICICI Bank.Andheri (E) Branch Beneficiary Name: Cosmos Eletronics Account No: 642705000217 RTGS/NEFT: ICIC0006427,Invoice,2,2018-05-11 12:05:34,2
+48,Payment: 100% on Delvary,Quotation,2,2018-05-11 15:05:15,2

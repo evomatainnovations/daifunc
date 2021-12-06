@@ -1,0 +1,53 @@
+Pid,p_name,Owner,Type
+16,Fathers Name,1,Students
+15,College,1,Students
+14,School,1,Students
+13,Email,1,Students
+12,Mobile,1,Students
+17,Fathers Mobile,1,Students
+18,Fathers Email,1,Students
+19,Fathers Occupation,1,Students
+20,Mothers Name,1,Students
+21,Mothers Mobile,1,Students
+22,Mothers Email,1,Students
+23,Mothers Occupation,1,Students
+24,Inspiration,1,Students
+25,Hobbies,1,Students
+26,Choice of career,1,Students
+27,Interests,1,Students
+28,Address,1,Students
+29,Avg performance in school,1,Students
+30,Avg performance in college,1,Students
+31,Phone,1,Teachers
+32,Email,1,Teachers
+33,Address,1,Teachers
+34,PAN Card,1,Teachers
+35,Aadhar card,1,Teachers
+36,Experience,1,Teachers
+37,Specialisation,1,Teachers
+38,Phone,1,Enquiry
+39,Email,1,Enquiry
+57,,2,Customers
+43,Email,2,Customers
+44,Website,2,Customers
+41,Phone,2,Customers
+42,Mobile,2,Customers
+49,Phone 2,2,Customers
+40,Address,2,Customers
+45,GST,2,Customers
+46,Bank Details,2,Customers
+52,Phone 2,2,Customers
+56,Contact Person,2,Customers
+55,Contact Person,2,Customers
+58,,2,Customers
+59,Address,4,Customers
+60,Mobile,4,Customers
+61,Phone,4,Customers
+62,Email,4,Customers
+63,Website,4,Customers
+64,,1,Students
+65,,1,Students
+66,Employee ID,4,Customers
+67,,2,Customers
+68,GST Number,4,Customers
+69,,4,Customers

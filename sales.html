@@ -1,0 +1,1193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>O M Prime Ventures</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.red-orange.min.css" />
+	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<style type="text/css">
+		@media only screen and (max-width: 760px) {
+			#main_view {
+				/*height: 80vh !important;*/
+			}
+
+			#main_footer {
+				padding: 10px !important;
+			}
+
+			#main_footer > div > hr { 
+				border:1px solid #fff !important;
+			}
+			
+			/*#search_bar {
+			    width: 18em !important;
+			}*/
+			
+			#main_grid {
+			    width: 90% !important;
+			}
+		}
+
+
+		#main_view {
+			/*height: 87vh;*/
+			/*overflow: auto;*/
+		}
+
+		#main_footer {
+			background-color: #333;
+			color: #fff;
+			padding: 8.5px;
+		}
+
+		#main_footer > div > hr { 
+			border:0px solid #fff;
+		}
+
+		.main_card {
+			border-radius: 10px;
+			margin: 10px;
+			height: 15em;
+		}
+
+		.purchase_table {
+			width: 100%;
+	        text-align: left;
+	        border: 0px solid #ccc;
+	        border-collapse: collapse;
+	        
+		}
+
+		@media only screen and (max-width: 760px) {
+			.purchase_table {
+				display: block;
+	        	overflow: auto;
+			}
+		}
+
+		.purchase_table > thead > tr {
+			box-shadow: 0px 5px 5px #ccc;
+		}
+
+		.purchase_table > thead > tr > th {
+			padding: 10px;
+		}
+
+		.purchase_table > tbody > tr {
+			border-bottom: 1px solid #ccc;
+		}
+
+		.purchase_table > tbody > tr > td {
+			padding: 15px;
+		}
+
+		nav > div {
+			right: 10px;
+		}
+
+		.mdl-card {
+			width: 100%;
+		}
+		.mdl-card__title {
+			height: 200px;
+		}
+
+		.mdl-card__actions {
+			display: flex;
+		}
+
+		.mdl-chip {
+			height: 50px;
+			margin: 15px;
+		}
+		.mdl-chip__text {
+		    font-size: 14px;
+		    vertical-align: middle;
+		    display: inline-block;
+		    padding: 10px;
+		}
+		
+		.quick_access_button {
+		    background-color: #eee;
+            border: 0px;
+            padding: 15px;
+            margin: 5px;
+            border-radius: 6px;
+            font-weight: bold;
+		}
+		
+		.daifunc_card {
+		    min-height: 0px;
+		    border-radius: 5px;
+		    border:1px solid #ccc;
+		    /*box-shadow: 0px 5px 10px #ccc;*/
+		    padding: 5px;
+		    margin: 0px;
+		}
+		
+		.daifunc_card_shadow {
+		    min-height: 0px;
+		    border-radius: 5px;
+		    /*border:1px solid #ccc;*/
+		    box-shadow: 0px 5px 10px #ccc;
+		    padding: 5px;
+		    margin: 0px;
+		}
+		
+		
+		.daifunc_card_title {
+		    font-size: 1em;
+		}
+		
+		.daifunc_card_title_value {
+		    font-size: 3em;
+		    font-weight:bold;
+            text-align: center;
+            padding-top: 0px;
+            color: #f77272;
+		}
+		
+		table > tfoot > tr:first-child {
+		    padding:5px;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header  mdl-layout__header--transparent">
+		<header class="mdl-layout__header">
+			<div class="mdl-layout__header-row" style="padding: 0 16px 0 16px; overflow: auto;">
+				<!-- <span class="mdl-layout-title">Hello, Hitesh</span> -->
+				<img src="Logo_white.png" style="width: 30px;">
+
+				<!-- <div class="mdl-layout-spacer"></div> -->
+				<!-- <div style="margin: 0px auto;">
+					<input type="text" style="background-color: #fff; color: #000; outline: none; padding: 10px; border-radius: 10px; border:0px; width: 40em;" id="search_bar" placeholder="Search here" >
+					<button class="mdl-button mdl-js--button" style="color: #fff;" id="modalopen"><i class="material-icons">layers</i></button>
+				</div> -->
+
+			</div>
+		</header>
+		<main class="mdl-layout__content">
+			<div class="page-content">
+				<div class="mdl-grid">
+				    <div class="mdl-cell mdl-cell--12-col">
+				        <h3 style="font-weight:bold;">Sales</h3>
+				    </div>
+				    <div class="mdl-cell mdl-cell--4-col" id="main_div" style="height:80vh; overflow:auto;">
+					    <div class="mdl-grid">
+					        <div class="mdl-cell mdl-cell--12-col daifunc_card">
+					            <div class="mdl-grid">
+					                <div class="mdl-cell mdl-cell--12-col">
+        					            <h5>Manage</h5>
+        					            <hr>
+        					        </div>
+        					        <div class="mdl-cell mdl-cell--12-col">
+        					            <button id="details_btn" class="mdl-button mdl-js--button" style="width:100%; text-align:left;">
+        					                <i class="material-icons">face</i> Inquiries
+        					            </button>
+        					        </div>
+        					        <div class="mdl-cell mdl-cell--12-col">
+        					            <button id="theme_btn" class="mdl-button mdl-js--button" style="width:100%; text-align:left;">
+        					                <i class="material-icons">refresh</i> Events
+        					            </button>
+        					        </div>
+        					        <div class="mdl-cell mdl-cell--12-col">
+        					            <button id="theme_btn" class="mdl-button mdl-js--button" style="width:100%; text-align:left;">
+        					                <a href="reset_password.html">
+        					                <i class="material-icons">settings_backup_restore</i> Requirements
+        					                </a>
+        					            </button>
+        					        </div>
+        					        <div class="mdl-cell mdl-cell--12-col">
+        					            <button id="purchase_btn" class="mdl-button mdl-js--button" style="width:100%; text-align:left;">
+        					                <i class="material-icons">shopping_basket</i> Quotations
+        					            </button>
+        					        </div>
+					            </div>
+					        </div>
+					    </div>
+					    <div class="mdl-grid">
+					        <div class="mdl-cell mdl-cell--12-col daifunc_card">
+					            <div class="mdl-grid">
+					                <div class="mdl-cell mdl-cell--12-col">
+					                    <h5>Reports</h5>
+        					            <hr>
+        					        </div>
+        					        <div class="mdl-cell mdl-cell--12-col">
+                                        <button id="rename_btn" class="mdl-button mdl-js--button " style="width:100%; text-align:left;">
+                                            <i class="material-icons">edit</i> Timeline
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--12-col">
+                                        <button id="rename_btn" class="mdl-button mdl-js--button " style="width:100%; text-align:left;">
+                                            <i class="material-icons">edit</i> Sales Funnel
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--12-col">
+        					            <button id="devices_btn" class="mdl-button mdl-js--button " style="width:100%; text-align:left;">
+        					                <i class="material-icons">device_hub</i> Board View
+        					            </button>
+        					        </div>
+				                </div>
+				            </div>
+        				</div>
+					</div>
+					<!-- DETAILS -->
+					<div class="mdl-cell mdl-cell--8-col mdl-cell--4-col-tablet setting_div" id="details_div" style="height:80vh; overflow:auto;display:none;">
+					    <div class="mdl-grid">
+					        <div class="mdl-cell mdl-cell--12-col" style="diplay:flex;">
+					            <button class="mdl-button mdl-js--button" style="width:100%; text-align:left;" id="details_back_btn"><i class="material-icons">keyboard_arrow_left</i> My Details</button>
+					            
+					        </div>
+                            <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet">
+                                <div class="mdl-grid daifunc_card">
+        							<div class="mdl-cell mdl-cell--12-col">
+        					            <h5>Basic Details</h5>
+        					            <hr>
+        					        </div>
+        					        <div class="mdl-cell mdl-cell--12-col">
+        							    <div class="mdl-textfield mdl-js-textfield">
+                                            <input class="mdl-textfield__input" type="text" id="login">
+                                            <label class="mdl-textfield__label" for="login">Your Name</label>
+                                        </div>
+        							</div>
+        							<div class="mdl-cell mdl-cell--12-col">
+        							    <div class="mdl-textfield mdl-js-textfield">
+                                            <input class="mdl-textfield__input" type="text" id="login">
+                                            <label class="mdl-textfield__label" for="login">Company Name</label>
+                                        </div>
+        							</div>
+        							<div class="mdl-cell mdl-cell--12-col">
+        							    <div class="mdl-textfield mdl-js-textfield">
+                                            <input class="mdl-textfield__input" type="text" id="login">
+                                            <label class="mdl-textfield__label" for="login">Email</label>
+                                        </div>
+        							</div>
+        							<div class="mdl-cell mdl-cell--12-col">
+        							    <div class="mdl-textfield mdl-js-textfield">
+                                            <input class="mdl-textfield__input" type="text" id="login">
+                                            <label class="mdl-textfield__label" for="login">Phone</label>
+                                        </div>
+        							</div>
+        							<div class="mdl-cell mdl-cell--12-col">
+        							    <div class="mdl-textfield mdl-js-textfield">
+                                            <input class="mdl-textfield__input" type="text" id="login">
+                                            <label class="mdl-textfield__label" for="login">Address</label>
+                                        </div>
+        							</div>
+        							<div class="mdl-cell mdl-cell--12-col">
+        							    <div class="mdl-textfield mdl-js-textfield">
+                                            <input class="mdl-textfield__input" type="text" id="login">
+                                            <label class="mdl-textfield__label" for="login">GST Number</label>
+                                        </div>
+        							</div>
+        						</div>
+        					</div>
+        					<div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet">
+                            	<div class="mdl-grid daifunc_card">
+        							<div class="mdl-cell mdl-cell--12-col">
+        					            <h5>Display</h5>
+        					            <hr>
+        					        </div>
+        					        <div class="mdl-cell mdl-cell--12-col">
+        							    <img src="trianglify.svg" style="width:100%;">
+        							</div>
+        							<div class="mdl-cell mdl-cell--12-col">
+        							    <button class="mdl-button mdl-js--button mdl-button--raised" style="width:100%;">
+        							        <i class="material-icons">cloud_upload</i> Company Logo
+        							    </button>
+        							</div>
+        							<div class="mdl-cell mdl-cell--12-col">
+        							    <img src="trianglify.svg" style="width:100%;">
+        							</div>
+        							<div class="mdl-cell mdl-cell--12-col">
+        							    <button class="mdl-button mdl-js--button mdl-button--raised" style="width:100%;">
+        							        <i class="material-icons">cloud_upload</i> Logo with Address
+        							    </button>
+        							</div>
+        							<div class="mdl-cell mdl-cell--12-col">
+        							    <img src="trianglify.svg" style="width:100%;">
+        							</div>
+        							<div class="mdl-cell mdl-cell--12-col">
+        							    <button class="mdl-button mdl-js--button mdl-button--raised" style="width:100%;">
+        							        <i class="material-icons">cloud_upload</i> Profile Picture
+        							    </button>
+        							</div>
+        						</div>
+                            </div>
+                            <div class="mdl-cell mdl-cell--12-col">
+                                <div class="mdl-grid">
+                                    <div class="mdl-cell mdl-cell--12-col" style="text-align:right;">
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+                                            <i class="material-icons">done</i> Save
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+					
+					<!-- PURCHASES -->
+					<div class="mdl-cell mdl-cell--8-col mdl-cell--4-col-tablet setting_div" id="purchase_div" style="height:80vh; overflow:auto;display:none;">
+					    <div class="mdl-grid">
+					        <div class="mdl-cell mdl-cell--12-col" style="diplay:flex;">
+					            <button class="mdl-button mdl-js--button" style="width:100%; text-align:left;" id="purchase_back_btn"><i class="material-icons">keyboard_arrow_left</i> My Purchases</button>
+					            
+					        </div>
+                            <div class="mdl-cell mdl-cell--12-col">
+                                <div class="mdl-grid daifunc_card">
+        							<div class="mdl-cell mdl-cell--6-col">
+        					            <h5>Available Credits</h5>
+        					        </div>
+        					        <div class="mdl-cell mdl-cell--6-col">
+        					            <h5>0.00</h5>
+        					        </div>
+        						</div>
+        					</div>
+        					<div class="mdl-cell mdl-cell--12-col">
+                            	<div class="mdl-grid daifunc_card">
+        							<div class="mdl-cell mdl-cell--12-col">
+        					            <table class="purchase_table">
+        					                <thead>
+        					                    <tr>
+        					                        <th>Date</th>
+        					                        <th>Invoice Number</th>
+        					                        <th>Amount</th>
+        					                    </tr>
+        					                </thead>
+        					                <tbody>
+        					                    <tr>
+        					                        <td>20/04/2019</td>
+        					                        <td>EVO/IN/1920/01</td>
+        					                        <td>5000.00</td>
+        					                    </tr>
+        					                </tbody>
+        					                
+        					            </table>
+        					        </div>
+        						</div>
+                            </div>
+                        </div>
+					</div>
+					
+					<!-- RENEW -->
+					<div class="mdl-cell mdl-cell--8-col mdl-cell--4-col-tablet setting_div" id="renew_div" style="height:80vh; overflow:auto;display:none;">
+					    <div class="mdl-grid">
+					        <div class="mdl-cell mdl-cell--12-col" style="diplay:flex;">
+					            <button class="mdl-button mdl-js--button" style="width:100%; text-align:left;" id="renew_back_btn"><i class="material-icons">keyboard_arrow_left</i> My Renewals</button>
+					        </div>
+                            <div class="mdl-cell mdl-cell--12-col">
+                            	<div class="mdl-grid daifunc_card">
+                            	    <div class="mdl-cell mdl-cell--12-col">
+        					            <table class="purchase_table">
+        					                <thead>
+        					                    <tr>
+        					                        <th>Products</th>
+        					                        <th>Users</th>
+        					                        <th>Amount</th>
+        					                        <th>Total</th>
+        					                    </tr>
+        					                </thead>
+        					                <tbody>
+        					                    <tr>
+        					                        <th colspan="4">Modules</th>
+        					                    </tr>
+        					                    <tr>
+        					                        <td>Inventory</td>
+        					                        <td>3</td>
+        					                        <td>5000.00</td>
+        					                        <td>15000.00</td>
+        					                    </tr>
+        					                    <tr>
+        					                        <td>Accounting</td>
+        					                        <td>2</td>
+        					                        <td>5000.00</td>
+        					                        <td>10000.00</td>
+        					                    </tr>
+        					                    <tr>
+        					                        <th colspan="4">Storage</th>
+        					                    </tr>
+        					                    <tr>
+        					                        <td>1 GB Storage</td>
+        					                        <td>20</td>
+        					                        <td>1000.00</td>
+        					                        <td>20000.00</td>
+        					                    </tr>
+        					                </tbody>
+        					                <tfoot>
+        					                    <tr>
+        					                        <td colspan="3">Total</td>
+        					                        <td>45000.00</td>
+        					                    </tr>
+        					                    <tr>
+        					                        <td colspan="3">Credits</td>
+        					                        <td>-10000.00</td>
+        					                    </tr>
+        					                    <tr>
+        					                        <td colspan="3">Total</td>
+        					                        <td>35000.00</td>
+        					                    </tr>
+        					                    <tr>
+        					                        <td colspan="3">CGST 9%</td>
+        					                        <td>3150.00</td>
+        					                    </tr>
+        					                    <tr>
+        					                        <td colspan="3">SGST 9%</td>
+        					                        <td>3150.00</td>
+        					                    </tr>
+        					                    <tr>
+        					                        <td colspan="3">Grand Total</td>
+        					                        <td>41300.00</td>
+        					                    </tr>
+        					                    
+        					                </tfoot>
+        					                
+        					            </table>
+        					        </div>
+        						</div>
+                            </div>
+                        </div>
+					</div>
+					
+					<!-- MODULE RENAME -->
+					<div class="mdl-cell mdl-cell--8-col mdl-cell--4-col-tablet setting_div" id="rename_div" style="height:80vh; overflow:auto;display:none;">
+					    <div class="mdl-grid">
+					        <div class="mdl-cell mdl-cell--12-col" style="diplay:flex;">
+					            <button class="mdl-button mdl-js--button" style="width:100%; text-align:left;" id="rename_back_btn"><i class="material-icons">keyboard_arrow_left</i> Rename Modules</button>
+					            
+					        </div>
+                            <div class="mdl-cell mdl-cell--12-col">
+                                <div class="mdl-grid daifunc_card">
+        							<div class="mdl-cell mdl-cell--12-col">
+        					                <table class="purchase_table">
+        					                <thead>
+        					                    <tr>
+        					                        <th>Module Name</th>
+        					                        <th>Alias Name</th>
+        					                    </tr>
+        					                </thead>
+        					                <tbody>
+        					                    <tr>
+        					                        <td colspan="2"><i>Inventory</i></td>
+        					                    </tr>
+        					                    <tr>
+        					                        <td>Inwards</td>
+        					                        <td>
+        					                            <div class="mdl-textfield mdl-js-textfield">
+                                                            <input class="mdl-textfield__input" type="text" id="login">
+                                                            <label class="mdl-textfield__label" for="login">Rename Module</label>
+                                                        </div>
+        					                        </td>
+        					                    </tr>
+        					                </tbody>
+        					            </table>
+        					        </div>
+        						</div>
+        					</div>
+                        </div>
+					</div>
+					
+					<!-- DEVICE -->
+					<div class="mdl-cell mdl-cell--8-col mdl-cell--4-col-tablet setting_div" id="device_div" style="height:80vh; overflow:auto;display:none;">
+					    <div class="mdl-grid">
+					        <div class="mdl-cell mdl-cell--12-col" style="diplay:flex;">
+					            <button class="mdl-button mdl-js--button" style="width:100%; text-align:left;" id="device_back_btn"><i class="material-icons">keyboard_arrow_left</i> Manage Devices</button>
+					            
+					        </div>
+                            <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet">
+                                <div class="mdl-grid daifunc_card">
+        							<div class="mdl-cell mdl-cell--12-col">
+        							    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" id="add_devices" style="width:100%;">
+        							        <i class="material-icons">add</i> Device
+        							    </button>
+        					            <table class="purchase_table">
+        					                <thead>
+        					                    <tr>
+        					                        <th>Action</th>
+        					                        <th>Device Name</th>
+        					                        <th>Location</th>
+        					                        <th>Serial Number</th>
+        					                    </tr>
+        					                </thead>
+        					                <tbody>
+        					                    <tr>
+        					                        <td>
+        					                            <button class="mdl-button mdl-button--raised mdl-button--icon"><i class="material-icons">edit</i></button>
+        					                            <button class="mdl-button mdl-button--raised mdl-button--icon"><i class="material-icons">delete</i></button>
+        					                        </td>
+        					                        <td>Attendance Machine</td>
+        					                        <td>Borivali</td>
+        					                        <td>789678789</td>
+        					                    </tr>
+        					                </tbody>
+        					            </table>
+                                    </div>
+        						</div>
+        					</div>
+                        </div>
+					</div>
+					
+					<!-- GROUPS -->
+					<div class="mdl-cell mdl-cell--8-col mdl-cell--4-col-tablet setting_div" id="groups_div" style="height:80vh; overflow:auto;display:none;">
+					    <div class="mdl-grid">
+					        <div class="mdl-cell mdl-cell--12-col" style="diplay:flex;">
+					            <button class="mdl-button mdl-js--button" style="width:100%; text-align:left;" id="groups_back_btn"><i class="material-icons">keyboard_arrow_left</i> Manage Groups</button>
+					            
+					        </div>
+                            <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet">
+                                <div class="mdl-grid daifunc_card">
+        							<div class="mdl-cell mdl-cell--12-col">
+        					            <table class="purchase_table">
+        					                <thead>
+        					                    <tr>
+        					                        <th>Group Name</th>
+        					                        <th>Products</th>
+        					                        <th>Set Default</th>
+        					                    </tr>
+        					                </thead>
+        					                <tbody>
+        					                    <tr>
+        					                        <td>Cosmos Electronics</td>
+        					                        <td>Inventory, Accounting</td>
+        					                        <td>
+        					                            <button class="mdl-button mdl-button--raised mdl-button--colored">
+        					                                <i class="material-icons">star</i>
+        					                            </button>
+        					                        </td>
+        					                    </tr>
+        					                    <tr>
+        					                        <td>Cosmos Electronics</td>
+        					                        <td>Inventory, Accounting</td>
+        					                        <td>
+        					                            <button class="mdl-button mdl-button--colored">
+        					                                <i class="material-icons">star</i>
+        					                            </button>
+        					                        </td>
+        					                    </tr>
+        					                    <tr>
+        					                        <td>Cosmos Electronics</td>
+        					                        <td>Inventory, Accounting</td>
+        					                        <td>
+        					                            <button class="mdl-button mdl-button--colored">
+        					                                <i class="material-icons">star</i>
+        					                            </button>
+        					                        </td>
+        					                    </tr>
+        					                </tbody>
+        					            </table>
+        					        </div>
+        					        
+        						</div>
+        					</div>
+                        </div>
+					</div>
+					
+					<!-- APPS -->
+					<div class="mdl-cell mdl-cell--8-col mdl-cell--4-col-tablet setting_div" id="apps_div" style="height:80vh; overflow:auto;display:none;">
+					    <div class="mdl-grid">
+					        <div class="mdl-cell mdl-cell--12-col" style="diplay:flex;">
+					            <button class="mdl-button mdl-js--button" style="width:100%; text-align:left;" id="apps_back_btn"><i class="material-icons">keyboard_arrow_left</i> Manage Apps</button>
+					            
+					        </div>
+                            <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet">
+                                <div class="mdl-grid daifunc_card">
+        							<div class="mdl-cell mdl-cell--12-col">
+        					            <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+                                            <div class="mdl-tabs__tab-bar">
+                                            <a href="#mobileapp1" class="mdl-tabs__tab is-active">Cosmos Electronics</a>
+                                            <a href="#mobileapp2" class="mdl-tabs__tab">Evomata innovations</a>
+                                            <a href="#mobileapp3" class="mdl-tabs__tab">R Y Group</a>
+                                        </div>
+                                        <div class="mdl-tabs__panel is-active" id="mobileapp1">
+                                            <div class="mdl-grid">
+                                                <div class="mdl-cell mdl-cell--12-col daifunc_card">
+                                                    <div class="mdl-grid">
+                                                        <div class="mdl-cell mdl-cell--12-col">
+                                                            <h4>OTP setting</h4>
+                                                            <hr>
+                                                        </div>
+                                                        <div class="mdl-cell mdl-cell--8-col">
+                                                            <b>On:</b> App based OTP / <b>Off:</b> Email based OTP
+                                                        </div>
+                                                        <div class="mdl-cell mdl-cell--4-col">
+                                                            <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-2">
+                                                                <input type="checkbox" id="switch-2" class="mdl-switch__input">
+                                                                <span class="mdl-switch__label">
+                                                                    
+                                                                </span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mdl-grid">
+                                                <div class="mdl-cell mdl-cell--12-col daifunc_card">
+                                                    <div class="mdl-grid">
+                                                        <div class="mdl-cell mdl-cell--12-col">
+                                                            <h4>Connect to Group</h4>
+                                                            <hr>
+                                                        </div>
+                                                        <div class="mdl-cell mdl-cell--12-col">
+                                                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                                                <select class="mdl-textfield__input" id="login">
+                                                                    <option value="1">Cosmos Electronics</option>
+                                                                    <option value="2">Evomata innovations</option>
+                                                                </select>
+                                                                <label class="mdl-textfield__label" for="login">Select Group Name</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mdl-grid">
+                                                <div class="mdl-cell mdl-cell--12-col daifunc_card">
+                                                    <div class="mdl-grid">
+                                                        <div class="mdl-cell mdl-cell--12-col">
+                                                            <h4>Registered Users</h4>
+                                                            <hr>
+                                                        </div>
+                                                        <div class="mdl-cell mdl-cell--12-col">
+                                                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                                                <input class="mdl-textfield__input" id="login" type="text">
+                                                                <label class="mdl-textfield__label" for="login">Search registered users</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="mdl-cell mdl-cell--12-col">
+                                                            <table class="purchase_table" style="display:block; overflow:auto;">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>Name</th>
+                                                                        <th>Email</th>
+                                                                        <th>Company</th>
+                                                                        <th>GST Number</th>
+                                                                        <th>Phone</th>
+                                                                        <th>Address</th>
+                                                                        <th>Actions</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>Hitesh Suvarna</td>
+                                                                        <td>evomatainnovations@gmail.com</td>
+                                                                        <td>Evomata Innovations</td>
+                                                                        <td>Company</td>
+                                                                        <td>GST Number</td>
+                                                                        <td>Phone</td>
+                                                                        <td>Address</td>
+                                                                        <th>
+                                                                            <button class="mdl-button"><i class="material-icons">block</i></button>
+                                                                            <button class="mdl-button"><i class="material-icons">delete</i></button>
+                                                                        </th>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Hitesh Suvarna</td>
+                                                                        <td>evomatainnovations@gmail.com</td>
+                                                                        <td>Evomata Innovations</td>
+                                                                        <td>Company</td>
+                                                                        <td>GST Number</td>
+                                                                        <td>Phone</td>
+                                                                        <td>Address</td>
+                                                                        <th>
+                                                                            <button class="mdl-button"><i class="material-icons">block</i></button>
+                                                                            <button class="mdl-button"><i class="material-icons">delete</i></button>
+                                                                        </th>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Hitesh Suvarna</td>
+                                                                        <td>evomatainnovations@gmail.com</td>
+                                                                        <td>Evomata Innovations</td>
+                                                                        <td>Company</td>
+                                                                        <td>GST Number</td>
+                                                                        <td>Phone</td>
+                                                                        <td>Address</td>
+                                                                        <th>
+                                                                            <button class="mdl-button"><i class="material-icons">block</i></button>
+                                                                            <button class="mdl-button"><i class="material-icons">delete</i></button>
+                                                                        </th>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                            
+                                                </div>
+                                            </div>
+                                        </div>
+        					        </div>
+        						</div>
+        						</div>
+        					</div>
+                        </div>
+					</div>
+					
+					<!-- REFERRAL CODE -->
+					<div class="mdl-cell mdl-cell--8-col mdl-cell--4-col-tablet setting_div" id="refer_div" style="height:80vh; overflow:auto;display:none;">
+					    <div class="mdl-grid">
+					        <div class="mdl-cell mdl-cell--12-col" style="diplay:flex;">
+					            <button class="mdl-button mdl-js--button" style="width:100%; text-align:left;" id="refer_back_btn"><i class="material-icons">keyboard_arrow_left</i> Referral Code</button>
+					            
+					        </div>
+                            <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet">
+                                <div class="mdl-grid daifunc_card">
+        							<div class="mdl-cell mdl-cell--12-col">
+        					            <h5>Your Code</h5>
+        					            <hr>
+        					        </div>
+        					        <div class="mdl-cell mdl-cell--12-col">
+        							    <div class="mdl-textfield mdl-js-textfield">
+                                            <input class="mdl-textfield__input"  style="font-size:40px; text-align:center;" type="text" id="login" value="173JHDKGF">
+                                            <label class="mdl-textfield__label" for="login">Your Name</label>
+                                        </div>
+        							</div>
+        							<div class="mdl-cell mdl-cell--12-col">
+        							    <p>Copy this code and forward it to people when they are registering on Daifunc. You will get <b><u>10% credits</u></b> of the total amount to your account which can be redeemed for future purchases.</p>
+        							</div>
+        						</div>
+        					</div>
+                        </div>
+					</div>
+					
+					<!-- EARNING -->
+					<div class="mdl-cell mdl-cell--8-col mdl-cell--4-col-tablet setting_div" id="earning_div" style="height:80vh; overflow:auto;display:none;">
+					    <div class="mdl-grid">
+					        <div class="mdl-cell mdl-cell--12-col" style="diplay:flex;">
+					            <button class="mdl-button mdl-js--button" style="width:100%; text-align:left;" id="earning_back_btn"><i class="material-icons">keyboard_arrow_left</i> Earnings</button>
+					            
+					        </div>
+                            <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet">
+                                <div class="mdl-grid daifunc_card">
+        							<div class="mdl-cell mdl-cell--12-col">
+        					            <h5>Your Earnings</h5>
+        					            <hr>
+        					        </div>
+        					        <div class="mdl-cell mdl-cell--12-col">
+        					            <table class="purchase_table">
+        					                <thead>
+        					                    <tr>
+        					                        <th>Sr. No</th>
+        					                        <th>Name</th>
+        					                        <th>Date</th>
+        					                        <th>Transaction Amount</th>
+        					                        <th>Scheme Name</th>
+        					                        <th>Credit Amount</th>
+        					                    </tr>
+        					                </thead>
+        					            </table>
+        					        </div>
+        					        
+        						</div>
+        					</div>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">
+                    	    Hello, Hitesh
+                        </h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                      	<div>
+                        	<button class="mdl-button mdl-js--button" style="color: #000;"><i class="material-icons">home</i> Home</button>
+                        </div>
+                        <div>
+                			<button class="mdl-button mdl-js--button" style="color: #000;"><i class="material-icons">category</i> Groups</button>
+                		</div>
+                		<div>
+                			<button class="mdl-button mdl-js--button" style="color: #000;"><i class="material-icons">settings</i> Settings</button>
+                		</div>
+                		<hr>
+                		<div>
+                			<button class="mdl-button mdl-js--button" style="color: #000;"><i class="material-icons">settings</i> Collections</button>
+                		</div>
+                		<hr>
+                		<div>
+                			<hr>
+                			<i class="material-icons">notification_important</i> Notifications
+                			<br>
+                			<ul>
+                				<li>You are tagged in X</li>
+                			</ul>
+                		</div>
+                		<hr>
+                		<div>
+                		    <button class="mdl-button mdl-js--button" style="color: #000;"><i class="material-icons">dashboard</i> Modules</button>
+                			<div class="mdl-grid" style="background-color: #eee; border-radius: 10px;">
+                				<div class="mdl-cell mdl-cell--4-col" >
+                					<a href="#inv">Inventory</a>
+                				</div>	
+                				<div class="mdl-cell mdl-cell--4-col">
+                					<a href="#todo">Todo</a>
+                				</div>	
+                				<div class="mdl-cell mdl-cell--4-col">
+                					<a href="#acc">Accounting</a>
+                				</div>	
+                				<div class="mdl-cell mdl-cell--4-col">
+                					Marketing
+                				</div>	
+                				<div class="mdl-cell mdl-cell--4-col">
+                					HR
+                				</div>	
+                				<div class="mdl-cell mdl-cell--4-col">
+                					Support & Maintenance
+                				</div>	
+                			</div>
+                			<hr>
+                		</div>
+                		<div>
+                		    <button class="mdl-button mdl-js--button" style="color: #000;"><i class="material-icons">logout</i> Logout</button>
+                		</div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="add_device_modal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">
+                    	    Add Device
+                        </h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                      	<div class="mdl-grid daifunc_card">
+							<div class="mdl-cell mdl-cell--12-col">
+					            <div class="mdl-textfield mdl-js-textfield">
+                                    <input class="mdl-textfield__input" type="text" id="login">
+                                    <label class="mdl-textfield__label" for="login">Device Name</label>
+                                </div>
+                            </div>
+					        <div class="mdl-cell mdl-cell--12-col">
+					            <div class="mdl-textfield mdl-js-textfield">
+                                    <input class="mdl-textfield__input" type="text" id="login">
+                                    <label class="mdl-textfield__label" for="login">Location</label>
+                                </div>
+                            </div>
+					        <div class="mdl-cell mdl-cell--12-col">
+					            <div class="mdl-textfield mdl-js-textfield">
+                                    <input class="mdl-textfield__input" type="text" id="login">
+                                    <label class="mdl-textfield__label" for="login">Serial Number</label>
+                                </div>
+                            </div>
+					        <div class="mdl-cell mdl-cell--12-col">
+					            <div class="mdl-textfield mdl-js-textfield">
+                                    <input class="mdl-textfield__input" type="text" id="login">
+                                    <label class="mdl-textfield__label" for="login">Username</label>
+                                </div>
+                            </div>
+					        <div class="mdl-cell mdl-cell--12-col">
+					            <div class="mdl-textfield mdl-js-textfield">
+                                    <input class="mdl-textfield__input" type="text" id="login">
+                                    <label class="mdl-textfield__label" for="login">Password</label>
+                                </div>
+                            </div>
+                            <div class="mdl-cell mdl-cell--12-col">
+					            <button class="mdl-button mdl-js--button mdl-button--raised mdl-button--colored" style="width:100%;">
+					                <i class="material-icons">done</i> Save
+					            </button>
+                            </div>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="add_group_modal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">
+                    	    Add Group
+                        </h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                      	<div class="mdl-grid daifunc_card">
+							<div class="mdl-cell mdl-cell--12-col">
+					            <div class="mdl-textfield mdl-js-textfield">
+                                    <input class="mdl-textfield__input" type="text" id="login">
+                                    <label class="mdl-textfield__label" for="login">Group Name</label>
+                                </div>
+                            </div>
+					        <div class="mdl-cell mdl-cell--12-col">
+					            <div class="mdl-textfield mdl-js-textfield">
+                                    <input class="mdl-textfield__input" type="text" id="login">
+                                    <label class="mdl-textfield__label" for="login">Add Product</label>
+                                </div>
+                            </div>
+                            <div class="mdl-cell mdl-cell--12-col">
+					            <table class="purchase_table">
+					                <thead>
+					                    <tr>
+					                        <th>Products in list</th>
+					                        <th>Actions</th>
+					                    </tr>
+					                </thead>
+					                <tbody>
+					                    <tr>
+					                        <td>Inventory</td>
+					                        <td>
+					                            <button class="mdl-button mdl-button--colored">
+					                                <i class="material-icons">delete</i>
+					                            </button>
+					                        </td>
+					                    </tr>
+					                    <tr>
+					                        <td>Accounting</td>
+					                        <td>
+					                            <button class="mdl-button mdl-button--colored">
+					                                <i class="material-icons">delete</i>
+					                            </button>
+					                        </td>
+					                    </tr>
+					                </tbody>
+					            </table>
+                            </div>
+                            
+                            <div class="mdl-cell mdl-cell--12-col">
+					            <button class="mdl-button mdl-button--raised mdl-button--colored" style="width:100%;">
+					                <i class="material-icons">done</i> Save
+					            </button>
+                            </div>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</div>
+</body>
+<script type="text/javascript">
+	var inv_total=0;
+	$(document).ready(function() {
+		$('#modalopen').click(function(e) {
+			e.preventDefault();
+
+			console.log("Oka");
+			$('#myModal').modal('toggle');
+		});
+		
+		$('#add_devices').click(function(e) {
+			e.preventDefault();
+
+			console.log("Oka");
+			$('#add_device_modal').modal('toggle');
+		});
+		
+		$('#add_group_btn').click(function(e) {
+			e.preventDefault();
+
+			console.log("Oka");
+			$('#add_group_modal').modal('toggle');
+		});
+		
+		$('#details_btn').click(function(e) {
+		    e.preventDefault();
+		    $('.setting_div').css('display','none');
+		    if(window.innerWidth <=414) {
+		         $('#main_div').css('display','none');
+		         $('#details_div').css('display','block');
+		    } else {
+		         $('#details_div').css('display','block');  
+		    }
+	    });
+	    
+	    $('#details_back_btn').click(function(e) {
+	        e.preventDefault();
+	        if(window.innerWidth<= 414) {
+	            $('#main_div').css('display','block');
+		         $('#details_div').css('display','none');
+	        } else {
+	            $('#details_div').css('display','none');
+	        }
+	    })
+	    
+	    $('#purchase_btn').click(function(e) {
+		    e.preventDefault();
+		    $('.setting_div').css('display','none');
+		    if(window.innerWidth <=414) {
+		         $('#main_div').css('display','none');
+		         $('#purchase_div').css('display','block');
+		    } else {
+		         $('#purchase_div').css('display','block');  
+		    }
+	    });
+	    
+	    $('#purchase_back_btn').click(function(e) {
+	        e.preventDefault();
+	        if(window.innerWidth<= 414) {
+	            $('#main_div').css('display','block');
+		         $('#purchase_div').css('display','none');
+	        } else {
+	            $('#purchase_div').css('display','none');
+	        }
+	    })
+	    
+	    $('#renew_btn').click(function(e) {
+		    e.preventDefault();
+		    $('.setting_div').css('display','none');
+		    if(window.innerWidth <=414) {
+		         $('#main_div').css('display','none');
+		         $('#renew_div').css('display','block');
+		    } else {
+		         $('#renew_div').css('display','block');  
+		    }
+	    });
+	    
+	    $('#renew_back_btn').click(function(e) {
+	        e.preventDefault();
+	        if(window.innerWidth<= 414) {
+	            $('#main_div').css('display','block');
+		         $('#renew_div').css('display','none');
+	        } else {
+	            $('#renew_div').css('display','none');
+	        }
+	    })
+	    
+	    $('#rename_btn').click(function(e) {
+		    e.preventDefault();
+		    $('.setting_div').css('display','none');
+		    if(window.innerWidth <=414) {
+		         $('#main_div').css('display','none');
+		         $('#rename_div').css('display','block');
+		    } else {
+		         $('#rename_div').css('display','block');  
+		    }
+	    });
+	    
+	    $('#rename_back_btn').click(function(e) {
+	        e.preventDefault();
+	        if(window.innerWidth<= 414) {
+	            $('#main_div').css('display','block');
+		         $('#rename_div').css('display','none');
+	        } else {
+	            $('#rename_div').css('display','none');
+	        }
+	    })
+	    
+	    $('#devices_btn').click(function(e) {
+		    e.preventDefault();
+		    $('.setting_div').css('display','none');
+		    if(window.innerWidth <=414) {
+		         $('#main_div').css('display','none');
+		         $('#device_div').css('display','block');
+		    } else {
+		         $('#device_div').css('display','block');  
+		    }
+	    });
+	    
+	    $('#device_back_btn').click(function(e) {
+	        e.preventDefault();
+	        if(window.innerWidth<= 414) {
+	            $('#main_div').css('display','block');
+		         $('#device_div').css('display','none');
+	        } else {
+	            $('#device_div').css('display','none');
+	        }
+	    })
+	    
+	    $('#groups_btn').click(function(e) {
+		    e.preventDefault();
+		    $('.setting_div').css('display','none');
+		    if(window.innerWidth <=414) {
+		         $('#main_div').css('display','none');
+		         $('#groups_div').css('display','block');
+		    } else {
+		         $('#groups_div').css('display','block');  
+		    }
+	    });
+	    
+	    $('#groups_back_btn').click(function(e) {
+	        e.preventDefault();
+	        if(window.innerWidth<= 414) {
+	            $('#main_div').css('display','block');
+		         $('#groups_div').css('display','none');
+	        } else {
+	            $('#groups_div').css('display','none');
+	        }
+	    })
+	    
+	    $('#apps_btn').click(function(e) {
+		    e.preventDefault();
+		    $('.setting_div').css('display','none');
+		    if(window.innerWidth <=414) {
+		         $('#main_div').css('display','none');
+		         $('#apps_div').css('display','block');
+		    } else {
+		         $('#apps_div').css('display','block');  
+		    }
+	    });
+	    
+	    $('#apps_back_btn').click(function(e) {
+	        e.preventDefault();
+	        if(window.innerWidth<= 414) {
+	            $('#main_div').css('display','block');
+		         $('#apps_div').css('display','none');
+	        } else {
+	            $('#apps_div').css('display','none');
+	        }
+	    })
+	    
+	    $('#refer_btn').click(function(e) {
+		    e.preventDefault();
+		    $('.setting_div').css('display','none');
+		    console.log(window.innerWidth);
+		    if(window.innerWidth <=414) {
+		         $('#main_div').css('display','none');
+		         $('#refer_div').css('display','block');
+		    } else {
+		         $('#refer_div').css('display','block');  
+		    }
+	    });
+	    
+	    $('#refer_back_btn').click(function(e) {
+	        e.preventDefault();
+	        if(window.innerWidth<= 414) {
+	            $('#main_div').css('display','block');
+		         $('#refer_div').css('display','none');
+	        } else {
+	            $('#refer_div').css('display','none');
+	        }
+	    })
+	    
+	    $('#earning_btn').click(function(e) {
+		    e.preventDefault();
+		    $('.setting_div').css('display','none');
+		    if(window.innerWidth <=414) {
+		         $('#main_div').css('display','none');
+		         $('#earning_div').css('display','block');
+		    } else {
+		         $('#earning_div').css('display','block');  
+		    }
+	    });
+	    
+	    $('#earning_back_btn').click(function(e) {
+	        e.preventDefault();
+	        if(window.innerWidth<= 414) {
+	            $('#main_div').css('display','block');
+		         $('#earning_div').css('display','none');
+	        } else {
+	            $('#earning_div').css('display','none');
+	        }
+	    })
+	})
+</script>
+</html>

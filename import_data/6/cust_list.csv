@@ -1,0 +1,226 @@
+Id,Name,Owner,Created,created_by,Modified,modified_by,Type
+12,Asmita Gawde,1,2017-08-02 08:08:07,1,2017-08-21 10:08:33,1,Students
+10,Aman Joshi,1,2017-08-02 08:08:12,1,2017-12-05 18:12:10,1,Students
+11,Anmol Goyal,1,2017-08-02 08:08:47,1,NULL,NULL,Students
+9,B. Jayprakash,1,2017-08-02 08:08:24,1,2018-02-02 09:02:26,1,Students
+13,Ishaan Samel,1,2017-08-02 08:08:43,1,2017-08-21 10:08:52,1,Students
+14,Om samel,1,2017-08-02 08:08:32,1,2017-08-21 10:08:38,1,Students
+15,Manav Hirey,1,2017-08-02 08:08:43,1,2017-11-21 16:11:44,1,Students
+16,Laukik Deshmukh,1,2017-08-02 08:08:16,1,2017-08-21 11:08:13,1,Students
+17,Nihal Todankar,1,2017-08-02 08:08:16,1,2017-08-21 11:08:04,1,Students
+18,Prithvij Kakade,1,2017-08-02 09:08:58,1,2018-01-18 16:01:41,1,Students
+19,Priyankesh Baruah,1,2017-08-02 09:08:54,1,2017-11-20 18:11:37,1,Students
+25,Snehanjali karande,1,2017-08-02 09:08:13,1,NULL,NULL,Students
+21,Rohit Jadhav,1,2017-08-02 09:08:08,1,2017-11-22 18:11:50,1,Students
+24,Satish Tiwari,1,2017-08-02 09:08:44,1,2017-08-21 11:08:55,1,Students
+26,Venkatesh Mahamuni,1,2017-08-02 09:08:53,1,NULL,NULL,Students
+27,Krit Gupta,1,2017-08-02 09:08:02,1,2017-08-21 11:08:34,1,Students
+29,Arnav Verma,1,2017-08-03 08:08:23,1,2017-11-22 14:11:37,1,Students
+30,Yash Vaidya,1,2017-08-03 08:08:34,1,2017-08-21 10:08:57,1,Students
+31,Sharnam Singhwal,1,2017-08-03 08:08:10,1,2017-08-31 11:08:38,1,Students
+32,Rachit Jain,1,2017-08-03 08:08:08,1,2017-08-03 08:08:15,1,Students
+33,Umang,1,2017-08-03 08:08:06,1,2017-08-03 08:08:36,1,Students
+34,Anjali Gohil,1,2017-08-03 08:08:04,1,2017-08-21 11:08:02,1,Students
+35,Snigdha Singh,1,2017-08-03 08:08:40,1,2017-08-21 11:08:12,1,Students
+36,Shubhankar Mishra,1,2017-08-03 08:08:16,1,2017-11-22 17:11:32,1,Students
+37,Govind Sawant,1,2017-08-03 08:08:12,1,2017-08-21 11:08:10,1,Students
+38,Nupur Rawal,1,2017-08-03 08:08:08,1,2017-08-21 11:08:29,1,Students
+39,Mansi Gangurde,1,2017-08-03 08:08:50,1,NULL,NULL,Students
+40,Sameeksha Rane,1,2017-08-03 08:08:36,1,2017-10-11 20:10:13,1,Students
+41,Ishan Sheth,1,2017-08-03 08:08:21,1,2017-10-11 20:10:41,1,Students
+42,Aakash Nair,1,2017-08-03 08:08:02,1,NULL,NULL,Students
+45,Preeti Suvarna,1,2017-08-03 08:08:19,1,2017-10-11 20:10:35,1,Students
+46,Joshua Vaz,1,2017-08-03 08:08:21,1,NULL,NULL,Students
+47,Royce Lobo,1,2017-08-04 06:08:26,1,2017-08-04 06:08:59,1,Students
+48,Samiksha Bhatt,1,2017-08-05 06:08:09,1,2017-08-05 06:08:11,1,Students
+49,Vrunda Tawde,1,2017-08-05 06:08:23,1,2017-08-21 11:08:52,1,Students
+50,Divyesh Mistry,1,2017-08-05 06:08:33,1,2017-08-21 11:08:45,1,Students
+51,Jay Gajora,1,2017-08-05 06:08:32,1,NULL,NULL,Students
+52,Aditya Mamgai,1,2017-08-05 06:08:52,1,NULL,NULL,Students
+53,Shikhar Gupta,1,2017-08-05 06:08:07,1,NULL,NULL,Students
+55,Jaya Mishra,1,2017-08-31 11:08:22,1,NULL,NULL,Students
+56,Jaya Mishra,1,2017-08-31 11:08:44,1,2018-01-18 18:01:46,1,Students
+57,Ashmita Shetty,1,2017-09-19 23:09:17,1,NULL,NULL,Teachers
+58,Rupali Shanbhag,1,2017-09-19 23:09:54,1,NULL,NULL,Teachers
+59,Sayantani Das,1,2017-10-01 23:10:31,1,NULL,NULL,Students
+60,Akash Gangadharan,1,2017-10-02 12:10:43,1,2018-01-18 18:01:57,1,Students
+61,Devyani Chogle,1,2017-10-02 12:10:58,1,2017-11-06 20:11:03,1,Students
+63,Vishal Diamonds,2,2017-10-26 15:10:59,2,2018-02-02 15:02:36,2,Customers
+64,"Arham Realtors LLP.,",2,2017-10-26 15:10:52,2,2018-02-01 15:02:18,2,Customers
+65,Heartland Group,2,2017-10-26 15:10:01,2,2018-02-01 15:02:28,2,Customers
+66,"True Ethnic Food & Beverages P.L.,",2,2017-10-26 15:10:25,2,2018-02-01 15:02:39,2,Customers
+113,Ali Yavar Jung National Institute for the Hearing & Handicapped,2,2017-11-28 16:11:36,2,2018-02-01 15:02:06,2,Customers
+112,Images,2,2017-11-28 15:11:42,2,2018-02-01 15:02:29,2,Customers
+70,"Surajmal Lallubhai & Co.,",2,2017-10-26 16:10:10,2,2018-02-02 16:02:51,2,Customers
+222,Karvin Power Systems P.L.,2,2018-02-01 16:02:51,2,2018-02-02 16:02:08,2,Customers
+223,"Electronic Emporium,",2,2018-02-01 16:02:17,2,NULL,NULL,Vendors
+77,Anurag Nursing Home,2,2017-11-17 15:11:28,2,2018-02-01 15:02:59,2,Customers
+227,Team Telesystem,2,2018-02-01 16:02:35,2,NULL,NULL,Vendors
+226,"K T Security System,",2,2018-02-01 16:02:10,2,2018-02-06 16:02:01,2,Vendors
+103,Jordan D'souza,1,2017-11-22 17:11:52,1,NULL,NULL,Students
+104,Shawn Hunk,1,2017-11-22 17:11:19,1,NULL,NULL,Students
+110,Vedant Iyer Bacachandra,1,2017-11-22 18:11:58,1,2017-12-01 16:12:31,1,Students
+106,Aishwarya John,1,2017-11-22 17:11:11,1,2017-12-01 16:12:42,1,Students
+99,Akshata Dhanawade,1,2017-11-22 17:11:44,1,NULL,NULL,Students
+100,Shubham Gawade,1,2017-11-22 17:11:16,1,2018-01-17 17:01:15,1,Students
+101,Hardik Mahashwari,1,2017-11-22 17:11:46,1,NULL,NULL,Students
+102,Harikrishna Unnithan,1,2017-11-22 17:11:17,1,2018-01-17 18:01:35,1,Students
+98,Sakshi Bidye,1,2017-11-22 17:11:17,1,2017-12-01 16:12:20,1,Students
+95,Shubham Kambli ,1,2017-11-22 11:11:36,1,2018-01-18 17:01:27,1,Students
+96,Chinmay Chawathe,1,2017-11-22 11:11:09,1,2017-11-22 18:11:22,1,Students
+97,Mrunal Tambe,1,2017-11-22 11:11:36,1,2018-01-17 18:01:49,1,Students
+107,Mank Lutao,1,2017-11-22 18:11:59,1,2017-12-01 16:12:06,1,Students
+109,Suraj Rawat,1,2017-11-22 18:11:46,1,2017-12-01 16:12:09,1,Students
+114,"Jewel Of India,",2,2017-11-28 16:11:12,2,2018-02-01 15:02:12,2,Customers
+115,"Krishnadeep CHSL.,",2,2017-11-28 16:11:54,2,2018-02-01 15:02:30,2,Customers
+116,"Tata Institute of Fundamental Research,",2,2017-11-28 16:11:07,2,2018-02-01 15:02:47,2,Customers
+117,"Sun-N-Sand Hotels P.L.,",2,2017-11-28 16:11:00,2,2018-02-12 16:02:52,2,Customers
+118,"Utssv CZ Gold Jewels Ltd.,",2,2017-11-28 16:11:17,2,2018-02-01 15:02:52,2,Customers
+119,The Mirador hotel,2,2017-11-28 17:11:57,2,2018-02-06 16:02:24,2,Customers
+120,Department Of Post,2,2017-11-28 17:11:21,2,2018-02-01 15:02:09,2,Customers
+121,"Bunts Hotel P.L.,",2,2017-11-28 17:11:06,2,2018-02-01 15:02:40,2,Customers
+237,Hotel Hilltop,2,2018-02-06 16:02:21,2,NULL,NULL,Customers
+123,"Nilambari CHSL.,",2,2017-11-28 17:11:23,2,2018-02-01 15:02:57,2,Customers
+125,Sai Corporation,2,2017-11-29 13:11:19,2,2018-02-01 15:02:44,2,Customers
+127,"Malgudi Trading Co.,(Turbhe)",2,2017-11-29 16:11:49,2,2018-02-01 15:02:16,2,Customers
+128,Jay Bhavani Creations,2,2017-11-30 14:11:26,2,2018-02-01 15:02:30,2,Customers
+129,Mr. Vipin Jogani ,2,2017-12-02 14:12:18,2,2018-02-01 15:02:45,2,Customers
+130,Shree Gajanan Maharaj ,2,2017-12-02 14:12:07,2,2018-02-06 16:02:03,2,Customers
+131,"Jeevan Kanchan CHS,Ltd ",2,2017-12-02 14:12:18,2,2018-02-01 15:02:37,2,Customers
+133,Cafe Vrindavan ,2,2017-12-02 14:12:15,2,2018-02-01 15:02:50,2,Customers
+134,The Director ,2,2017-12-02 14:12:25,2,2018-12-17 16:12:35,2,Customers
+135,Kalpataru Hospital ,2,2017-12-02 15:12:14,2,2018-02-01 15:02:27,2,Customers
+137,Sangam Dresses Retails Pvt. Ltd. (Dadar),2,2017-12-02 17:12:29,2,2018-02-01 15:02:47,2,Customers
+138,K.R.Advani & Others,2,2017-12-04 14:12:51,2,2017-12-04 16:12:15,2,Customers
+139,Hotel Status ,2,2017-12-04 15:12:56,2,NULL,NULL,Customers
+140,"New Dindoshi Maitree Park chsl.,",2,2017-12-04 16:12:17,2,NULL,NULL,Customers
+141,"Sai Sarover Restaurant,",2,2017-12-04 16:12:01,2,2018-02-01 15:02:21,2,Customers
+142,Sahakar Developers.,2,2017-12-05 14:12:35,2,2017-12-05 14:12:06,2,Customers
+143,S.R.M ,2,2017-12-05 14:12:24,2,2018-01-31 15:01:30,2,Customers
+144,D.H Securities Pvt.Ltd.,2,2017-12-05 15:12:37,2,2017-12-05 15:12:41,2,Customers
+145,Shoe Museum,2,2017-12-05 15:12:25,2,NULL,NULL,Customers
+149,Sai Shriyansh,1,2017-12-05 18:12:30,1,2018-01-18 18:01:20,1,Students
+148,Anjali Singh,1,2017-12-05 18:12:01,1,NULL,NULL,Students
+248,Hotel Govindas ( Pawan),2,2018-02-07 17:02:28,2,NULL,NULL,Customers
+151,Jayesh Mantri,2,2017-12-11 15:12:29,2,2018-01-31 15:01:44,2,Customers
+152,Total Security Solution,2,2017-12-11 15:12:12,2,2018-02-01 15:02:02,2,Vendors
+153,Amit Puthran,2,2017-12-11 15:12:14,2,NULL,NULL,Customers
+154,Pingara Hotel,2,2017-12-11 15:12:48,2,NULL,NULL,Customers
+155,Hotel Sunmerland,2,2017-12-11 15:12:34,2,2018-02-01 15:02:52,2,Customers
+156,Sharad Lodge ,2,2017-12-11 16:12:02,2,2017-12-11 16:12:18,2,Customers
+157,Vellore House & Realtors P.l.,2,2017-12-11 16:12:14,2,NULL,NULL,Customers
+158,S.R.M,2,2017-12-11 16:12:36,2,2018-02-01 15:02:50,2,Customers
+159,Nayak Guest House,2,2017-12-11 16:12:44,2,NULL,NULL,Customers
+160,"Chaitanya Groups Builders & Developers,",2,2017-12-11 16:12:56,2,2018-06-27 11:06:40,2,Customers
+161,Anugrah,2,2017-12-12 12:12:34,2,2018-02-02 16:02:06,2,Customers
+162,Hotel Ajanta,2,2017-12-12 12:12:24,2,2018-05-29 16:05:01,2,Customers
+163,Sangam Dresses Retails Pvt.Ltd (Retail all),2,2017-12-12 12:12:25,2,NULL,NULL,Customers
+165,Skinfinity,2,2017-12-12 13:12:08,2,2018-05-31 16:05:35,2,Customers
+166,Cliff Hotels Pvt. Ltd.,2,2017-12-12 13:12:55,2,NULL,NULL,Customers
+167,Dimple Hight CHS.LTD.,2,2017-12-14 12:12:05,2,2018-10-20 15:10:56,2,Customers
+168,Divine Grovers,2,2017-12-14 12:12:41,2,NULL,NULL,Customers
+169,Siddhivinayak Refreshment ,2,2017-12-14 12:12:08,2,NULL,NULL,Customers
+171,Hitesh Electricals,2,2017-12-19 17:12:04,2,2018-02-01 16:02:18,2,Vendors
+172,GcomSystems & Solutions ,2,2017-12-19 17:12:12,2,2018-02-01 17:02:57,2,Vendors
+173,Shree Siddhi CHS Ltd,2,2017-12-19 18:12:50,2,NULL,NULL,Customers
+174,Security Kart,2,2017-12-20 12:12:32,2,2018-03-09 11:03:13,2,Vendors
+175,Shree Parshwa Electronics,2,2017-12-20 14:12:19,2,2018-02-01 15:02:29,2,Vendors
+176,Opening stock,2,2017-12-20 16:12:15,2,2018-01-31 15:01:29,2,Customers
+177,Zoru Bhatina,2,2017-12-22 12:12:12,2,NULL,NULL,Customers
+178,Hotel Regency,2,2017-12-22 12:12:50,2,2018-02-12 16:02:25,2,Customers
+179,Khosla Profil Pvt. Ltd.,2,2017-12-22 12:12:07,2,2017-12-22 12:12:59,2,Customers
+180,Techflow Engineering (I) Pvt Ltd.,2,2017-12-22 12:12:48,2,NULL,NULL,Customers
+181,Tanki Sarees Pvt Ltd. ,2,2017-12-22 12:12:57,2,NULL,NULL,Customers
+238,"M/s.Anopchand Tilokchand Jewellers,",2,2018-02-06 16:02:12,2,NULL,NULL,Customers
+183,Law & Kenneth,2,2017-12-22 12:12:02,2,NULL,NULL,Customers
+184,Hotel Sai leela Pvt. Ltd,2,2017-12-22 12:12:13,2,NULL,NULL,Customers
+185,Feathership Sarees,2,2017-12-22 12:12:17,2,NULL,NULL,Customers
+186,Landmark Suites,2,2017-12-22 12:12:48,2,NULL,NULL,Customers
+187,Gokul Nagari H.Chs.Ltd,2,2017-12-22 14:12:16,2,2017-12-22 15:12:21,2,Customers
+188,Practice Agile solutions private limited.  ,2,2017-12-29 13:12:24,2,2019-01-01 17:01:54,2,Customers
+189,Sun Associates Builders & Developers,2,2018-01-02 13:01:43,2,NULL,NULL,Customers
+190,"Silver Coin,",2,2018-01-02 13:01:46,2,2018-02-02 16:02:48,2,Customers
+192,Mike Offset,2,2018-01-06 10:01:14,2,2018-02-02 16:02:04,2,Customers
+225,"Chipcom Traders P.L.,",2,2018-02-01 16:02:49,2,NULL,NULL,Vendors
+196,Sanjay Sales,2,2018-01-11 10:01:37,2,2018-02-01 16:02:40,2,Vendors
+197,In Stock,2,2018-01-12 16:01:55,2,NULL,NULL,Vendors
+198,Unique Infotech,2,2018-01-13 11:01:45,2,2018-02-01 15:02:46,2,Vendors
+229,"M R Power Tech P.L.,",2,2018-02-01 16:02:07,2,NULL,NULL,Vendors
+200,ABC Infra Pvt Ltd,4,2018-01-13 13:01:38,4,2018-01-30 23:01:45,4,Vendors
+201,Mahindra & Mahindra,4,2018-01-13 13:01:02,4,2018-01-16 14:01:30,4,Customers
+202,Kesari Tours,4,2018-01-13 13:01:18,4,NULL,NULL,Customers
+224,"Citi Trading co.,",2,2018-02-01 16:02:48,2,NULL,NULL,Vendors
+205,Karvin Power Systems,4,2018-01-15 12:01:34,4,2018-01-31 00:01:56,4,NULL
+207,Shiv Shakti Engineering,2,2018-01-17 15:01:39,2,2018-02-01 16:02:47,2,Vendors
+221,Sai Palace Inn,2,2018-02-01 16:02:48,2,2018-02-02 16:02:23,2,Customers
+208,Isha Sharma,1,2018-01-17 18:01:57,1,2018-01-18 18:01:15,1,Students
+209,YATHARTH SHAH,1,2018-01-17 18:01:09,1,2018-01-17 18:01:58,1,Students
+210,Domotics Infotech,4,2018-01-19 16:01:13,4,2018-01-19 16:01:10,4,Vendors
+211,Test Customer,4,2018-01-19 16:01:07,4,NULL,NULL,Customers
+212,adjust,2,2018-01-20 13:01:55,2,NULL,NULL,Customers
+213,Darshan Height CHSL,2,2018-01-25 13:01:10,2,NULL,NULL,Customers
+214,Stock,2,2018-01-27 14:01:59,2,NULL,NULL,Customers
+215,Stock,2,2018-01-27 14:01:28,2,NULL,NULL,Vendors
+219,Sanjay Agarwal,4,2018-01-31 00:01:13,4,2018-01-31 00:01:03,4,NULL
+220,Karvin Power Systems,4,2018-01-31 13:01:25,4,NULL,NULL,Customers
+230,Oven Fresh,2,2018-02-02 16:02:18,2,NULL,NULL,Customers
+231,Hi Point,2,2018-02-02 16:02:46,2,NULL,NULL,Customers
+232,Clin Tech,2,2018-02-05 16:02:29,2,NULL,NULL,Customers
+233,Mumbarkar Travels,2,2018-02-05 16:02:31,2,NULL,NULL,Customers
+234,Mr.G.P.Warange,2,2018-02-05 16:02:13,2,NULL,NULL,Customers
+235,Sattva,2,2018-02-06 15:02:24,2,NULL,NULL,Customers
+236,Milap,2,2018-02-06 16:02:09,2,NULL,NULL,Customers
+239,"Regency Hotel,",2,2018-02-06 16:02:13,2,NULL,NULL,Customers
+240,Lokhandwala Builders,2,2018-02-06 16:02:09,2,NULL,NULL,Customers
+241,"Time Magnetics (I)Ltd.,",2,2018-02-06 16:02:43,2,NULL,NULL,Customers
+242,"M/s.Nishuvi Corporation,",2,2018-02-06 16:02:11,2,NULL,NULL,Customers
+243,"Malgudi Gruop of Co.,",2,2018-02-06 16:02:00,2,NULL,NULL,Customers
+244,"Netcom Impo Expo P.L.,",2,2018-02-06 17:02:21,2,NULL,NULL,Vendors
+245,Hotel Govindas (Pawan),2,2018-02-07 17:02:38,2,NULL,NULL,Customers
+246,"Sun n Sand,",2,2018-02-07 17:02:24,2,2018-02-12 16:02:59,2,Customers
+286,Samriddhi Automations Pvt Ltd Haridwar,2,2018-06-01 15:06:35,2,NULL,NULL,Customers
+255,"Sahakar Shilp CHS Ltd.,",2,2018-02-12 11:02:14,2,NULL,NULL,Customers
+251,Hitesh Suvarna staff,4,2018-02-09 14:02:28,4,2018-02-10 22:02:32,4,Employees
+252,Test Employee,4,2018-02-09 14:02:28,4,NULL,NULL,Employees
+253,Test Employee 2,4,2018-02-09 14:02:18,4,NULL,NULL,Employees
+254,Sujit Vaidya,2,2018-02-10 12:02:58,2,NULL,NULL,Customers
+256,Sun n Sand Hotels P.L.,2,2018-02-12 16:02:39,2,NULL,NULL,Customers
+257,Hotem M 4 U,2,2018-02-12 16:02:39,2,NULL,NULL,Customers
+258,"Ms.Hotel Royal Park,",2,2018-02-12 16:02:14,2,2018-02-12 16:02:37,2,Customers
+259,"M/s.Hotel Mirage,",2,2018-02-12 16:02:53,2,NULL,NULL,Customers
+260,"Piccadily Hotels P.L.,",2,2018-02-12 17:02:45,2,NULL,NULL,Customers
+261,"M/s,Ceat Ltd.,",2,2018-02-12 17:02:41,2,NULL,NULL,Customers
+262,M/s.Thakkar Polypack,2,2018-02-12 17:02:56,2,NULL,NULL,Customers
+263,G T Hospital Canteen ,2,2018-02-14 11:02:03,2,NULL,NULL,Customers
+264,Eltee Apartments,2,2018-02-16 14:02:25,2,NULL,NULL,Customers
+265,Hotel Laxmi Punjab ,2,2018-02-20 12:02:55,2,NULL,NULL,Customers
+285,Uniview Solutions Pvt Ltd,2,2018-05-31 11:05:30,2,NULL,NULL,Vendors
+268,Ethics Infra Developers Pvt.Ltd,2,2018-02-27 16:02:56,2,2018-03-10 11:03:44,2,Customers
+269,Ethics Infra Development P.L,2,2018-03-15 13:03:32,2,2018-03-26 12:03:56,2,Customers
+270,"Manager, BNPL SP Hub, Agripada, Mumbai 400011",2,2018-03-15 13:03:46,2,NULL,NULL,Customers
+271,Sanjuz Entertainment Co.,2,2018-03-16 16:03:34,2,2018-03-19 15:03:07,2,Customers
+272,Sanjuz Entertainment Co.,2,2018-03-16 16:03:43,2,NULL,NULL,Customers
+273,S R M,2,2018-03-26 13:03:40,2,NULL,NULL,Customers
+275,BNPL SP Hub Agripada,2,2018-04-02 13:04:46,2,NULL,NULL,Customers
+276,Ethics infra developers p.ltd,2,2018-04-06 15:04:51,2,2018-11-12 17:11:53,2,Customers
+277,Department Of Posts India,2,2018-04-06 17:04:48,2,NULL,NULL,Customers
+278,O M Prime Ventures,4,2018-04-09 17:04:54,4,2018-04-16 22:04:48,4,Customers
+279,Samriddhi Automations Pvt.Ltd,2,2018-04-14 11:04:28,2,NULL,NULL,Customers
+287,samriddhi Automotions Pvt Ltd Haridwar,2,2018-06-01 15:06:50,2,NULL,NULL,Vendors
+281,Paragon products ,2,2018-04-26 12:04:28,2,2018-05-31 16:05:21,2,Customers
+300,Mr.Umesh Shetty,2,2018-12-17 16:12:23,2,2018-12-17 16:12:45,2,Customers
+288,Ajanta Travels Pvt Ltd.,2,2018-06-04 12:06:18,2,NULL,NULL,Customers
+283,"Focus Biotech,",2,2018-05-11 15:05:04,2,2018-09-22 11:09:33,2,Customers
+284,Uniview Solitions Pvd Ltd,2,2018-05-31 11:05:11,2,NULL,NULL,Customers
+290,Krishnakant,4,2018-07-27 19:07:25,4,NULL,NULL,Employees
+291,Krishna,6,2018-07-27 23:07:23,6,NULL,NULL,Customers
+292,Jeevan Kanchan CHS.LTD,2,2018-08-30 12:08:17,2,NULL,NULL,Customers
+293,Mr.Mihir Mehtha,2,2018-09-17 14:09:43,2,2018-12-28 17:12:03,2,Customers
+294,NULL,2,2018-09-18 15:09:24,2,NULL,NULL,Customers
+295,Vansh Hospital,2,2018-10-20 15:10:23,2,2018-10-20 15:10:40,2,Customers
+296,Neycer Infomatics,2,2018-10-30 16:10:05,2,NULL,NULL,Customers
+297,Neycer Infomatics,2,2018-10-30 16:10:13,2,NULL,NULL,Customers
+298,Neycer Infomatics,2,2018-10-30 16:10:00,2,NULL,NULL,Vendors
+299,NULL,2,2018-10-31 10:10:12,2,NULL,NULL,Customers
+301,Director GPO,2,2018-12-17 16:12:20,2,NULL,NULL,Customers
+302,M,2,2018-12-28 17:12:39,2,NULL,NULL,Customers

@@ -1,0 +1,6 @@
+id,cid,txnid,txn_date,from,to,Type,amount,Status,Note,owner,Created ,created_by,modified,Modified_by,discount,total,Tax
+1,211,EVO/AMC/1234,2018-01-28,0000-00-00,0000-00-00,active,15000,unpaid,This is a test note,4,2018-01-28 20:01:52,4,NULL,NULL,NULL,NULL,NULL
+2,201,EVO/AMC/124,2018-01-28,2018-01-28,2019-01-28,active,45000,unpaid,This includes everything for a year,4,2018-04-26 12:04:17,4,NULL,NULL,,45000,0
+3,70,COSEL/18-19/SM/114,2018-04-23,2018-05-01,2019-04-30,active,,unpaid,,2,2018-04-23 16:04:58,2,NULL,NULL,NULL,NULL,NULL
+4,220,EVO/345,2018-04-26,2018-04-26,2019-04-25,active,5000,unpaid,,4,2018-04-26 12:04:28,4,NULL,NULL,500,4500,5
+5,162,COSEL/18-19/SM/115,2018-05-03,2018-05-03,2019-05-02,active,18360,unpaid,,2,2018-09-23 19:09:22,2,NULL,NULL,,18360,0
